@@ -21,9 +21,9 @@ while True:
     foods.append(item)
     prices.append(price)
 
-# Final cart display (runs once at end)
 print("--------CART TOTAL-------")
 for item, price in zip(foods, prices):
     print(f"{item}: ${price}")
 total = sum(prices)
 print(f"Your total is ${total}")
+
